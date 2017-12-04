@@ -1,0 +1,80 @@
+xquery version "1.0-ml";
+
+(:
+: Insert the Template.
+: The function tde:template-insert() will validate the template; insert it into the Schemas database; 
+ : and assign the special collection "http://marklogic.com/xdmp/tde"
+:)
+
+import module "http://marklogic.com/xdmp/tde" at "/MarkLogic/tde.xqy";
+
+let $my-first-TDE:=
+<template xmlns="http://marklogic.com/xdmp/tde">
+<context>/record</context>
+<collections>
+   <collection>Burglary</collection>
+</collections>
+   <rows>
+     <row>
+      <schema-name>BO</schema-name>
+       <view-name>Burglary</view-name>
+       <columns>
+         <column>
+           <name>Postalcode</name>
+           <scalar-type>string</scalar-type>
+           <val>Postalcode</val>
+           <invalid-values>ignore</invalid-values>
+         </column>
+        <column>
+           <name>Weekday</name>
+           <scalar-type>string</scalar-type>
+           <val>Weekday</val>
+           <invalid-values>ignore</invalid-values>
+        </column>
+        <column>
+           <name>Month</name>
+           <scalar-type>int</scalar-type>
+           <val>Month</val>
+           <invalid-values>ignore</invalid-values>
+        </column>
+        <column>
+           <name>Type</name>
+           <scalar-type>string</scalar-type>
+           <val>Type</val>
+           <invalid-values>ignore</invalid-values>
+        </column>
+        <column>
+           <name>City</name>
+           <scalar-type>string</scalar-type>
+           <val>City</val>
+           <invalid-values>ignore</invalid-values>
+        </column>
+        <column>
+           <name>LAT</name>
+           <scalar-type>string</scalar-type>
+           <val>LAT</val>
+           <invalid-values>ignore</invalid-values>
+        </column>
+        <column>
+           <name>LON</name>
+           <scalar-type>string</scalar-type>
+           <val>LON</val>
+           <invalid-values>ignore</invalid-values>
+        </column>
+               
+      </columns>
+    </row>
+  </rows>
+</template>
+
+return 
+
+( tde:template-insert(
+   "/test/my-first-TDE.xml" ,
+   $my-first-TDE ,
+   xdmp:default-permissions() ,
+   "MY-TDE"
+  ),
+   "You just saved your TDE template template the Schemas database.",
+   "Change your database to Schemas, and click 'Explore' to view the template URI."
+)
