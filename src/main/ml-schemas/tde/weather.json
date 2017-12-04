@@ -1,0 +1,15 @@
+{
+    "template": {
+      "context": "/record",
+      "collections": ["weather"],
+      "rows": [
+        {
+          "schemaName": "bo", "viewName": "weather",
+          "columns": [
+            { "name": "station", "scalarType": "int", "val": "Station" },
+            { "name": "year", "scalarType": "int", "val": "Year" }
+          ]
+        }
+      ]
+    }
+}

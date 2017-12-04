@@ -1,0 +1,15 @@
+{
+    "template": {
+      "context": "/record",
+      "collections": ["moonlight"],
+      "rows": [
+        {
+          "schemaName": "bo", "viewName": "moonlight",
+          "columns": [
+            { "name": "day", "scalarType": "int", "val": "Day" },
+            { "name": "percentage", "scalarType": "int", "val": "Percentage" }
+          ]
+        }
+      ]
+    }
+}
