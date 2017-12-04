@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<Date>42736</Date>
+		<Day>1</Day>
+		<Month>1</Month>
+		<Year>2017</Year>
+		<Holiday>Nieuwjaarsdag 2017</Holiday>
+		<Weekday>1</Weekday>
+	</record>
+	<record>
+		<Date>42741</Date>
+		<Day>6</Day>
+		<Month>1</Month>
+		<Year>2017</Year>
+		<Holiday>Drie koningen 2017</Holiday>
+		<Weekday>6</Weekday>
+	</record>
+	<record>
+		<Date>42780</Date>
+		<Day>14</Day>
+		<Month>2</Month>
+		<Year>2017</Year>
+		<Holiday>Valentijnsdag 2017</Holiday>
+		<Weekday>3</Weekday>
+	</record>
+	<record>
+		<Date>42792</Date>
+		<Day>26</Day>
+		<Month>2</Month>
+		<Year>2017</Year>
+		<Holiday>Carnaval 2017</Holiday>
+		<Weekday>1</Weekday>
+	</record>
+	<record>
+		<Date>42820</Date>
+		<Day>26</Day>
+		<Month>3</Month>
+		<Year>2017</Year>
+		<Holiday>Zomertijd 2017</Holiday>
+		<Weekday>1</Weekday>
+	</record>
+	<record>
+		<Date>42839</Date>
+		<Day>14</Day>
+		<Month>4</Month>
+		<Year>2017</Year>
+		<Holiday>Goede vrijdag 2017</Holiday>
+		<Weekday>6</Weekday>
+	</record>
+	<record>
+		<Date>42841</Date>
+		<Day>16</Day>
+		<Month>4</Month>
+		<Year>2017</Year>
+		<Holiday>Pasen 2017</Holiday>
+		<Weekday>1</Weekday>
+	</record>
+	<record>
+		<Date>42841</Date>
+		<Day>16</Day>
+		<Month>4</Month>
+		<Year>2017</Year>
+		<Holiday>1e Paasdag 2017</Holiday>
+		<Weekday>1</Weekday>
+	</record>
+	<record>
+		<Date>42842</Date>
+		<Day>17</Day>
+		<Month>4</Month>
+		<Year>2017</Year>
+		<Holiday>2e Paasdag 2017</Holiday>
+		<Weekday>2</Weekday>
+	</record>
+	<record>
+		<Date>42852</Date>
+		<Day>27</Day>
+		<Month>4</Month>
+		<Year>2017</Year>
+		<Holiday>Koningsdag 2017</Holiday>
+		<Weekday>5</Weekday>
+	</record>
+	<record>
+		<Date>42856</Date>
+		<Day>1</Day>
+		<Month>5</Month>
+		<Year>2017</Year>
+		<Holiday>Dag van de arbeid 2017</Holiday>
+		<Weekday>2</Weekday>
+	</record>
+	<record>
+		<Date>42859</Date>
+		<Day>4</Day>
+		<Month>5</Month>
+		<Year>2017</Year>
+		<Holiday>Dodenherdenking 2017</Holiday>
+		<Weekday>5</Weekday>
+	</record>
+	<record>
+		<Date>42860</Date>
+		<Day>5</Day>
+		<Month>5</Month>
+		<Year>2017</Year>
+		<Holiday>Bevrijdingsdag 2017</Holiday>
+		<Weekday>6</Weekday>
+	</record>
+	<record>
+		<Date>42869</Date>
+		<Day>14</Day>
+		<Month>5</Month>
+		<Year>2017</Year>
+		<Holiday>Moederdag 2017</Holiday>
+		<Weekday>1</Weekday>
+	</record>
+	<record>
+		<Date>42880</Date>
+		<Day>25</Day>
+		<Month>5</Month>
+		<Year>2017</Year>
+		<Holiday>Hemelvaartsdag 2017</Holiday>
+		<Weekday>5</Weekday>
+	</record>
+	<record>
+		<Date>42882</Date>
+		<Day>27</Day>
+		<Month>5</Month>
+		<Year>2017</Year>
+		<Holiday>Ramadan 2017</Holiday>
+		<Weekday>7</Weekday>
+	</record>
+	<record>
+		<Date>42890</Date>
+		<Day>4</Day>
+		<Month>6</Month>
+		<Year>2017</Year>
+		<Holiday>Pinksteren 2017</Holiday>
+		<Weekday>1</Weekday>
+	</record>
+	<record>
+		<Date>42890</Date>
+		<Day>4</Day>
+		<Month>6</Month>
+		<Year>2017</Year>
+		<Holiday>1e Pinksterdag 2017</Holiday>
+		<Weekday>1</Weekday>
+	</record>
+	<record>
+		<Date>42891</Date>
+		<Day>5</Day>
+		<Month>6</Month>
+		<Year>2017</Year>
+		<Holiday>2e Pinksterdag 2017</Holiday>
+		<Weekday>2</Weekday>
+	</record>
+	<record>
+		<Date>42904</Date>
+		<Day>18</Day>
+		<Month>6</Month>
+		<Year>2017</Year>
+		<Holiday>Vaderdag 2017</Holiday>
+		<Weekday>1</Weekday>
+	</record>
+	<record>
+		<Date>42911</Date>
+		<Day>25</Day>
+		<Month>6</Month>
+		<Year>2017</Year>
+		<Holiday>Suikerfeest 2017</Holiday>
+		<Weekday>1</Weekday>
+	</record>
+	<record>
+		<Date>42979</Date>
+		<Day>1</Day>
+		<Month>9</Month>
+		<Year>2017</Year>
+		<Holiday>Offerfeest 2017</Holiday>
+		<Weekday>6</Weekday>
+	</record>
+	<record>
+		<Date>42997</Date>
+		<Day>19</Day>
+		<Month>9</Month>
+		<Year>2017</Year>
+		<Holiday>Prinsjesdag 2017</Holiday>
+		<Weekday>3</Weekday>
+	</record>
+	<record>
+		<Date>43012</Date>
+		<Day>4</Day>
+		<Month>10</Month>
+		<Year>2017</Year>
+		<Holiday>Dierendag 2017</Holiday>
+		<Weekday>4</Weekday>
+	</record>
+	<record>
+		<Date>43037</Date>
+		<Day>29</Day>
+		<Month>10</Month>
+		<Year>2017</Year>
+		<Holiday>Wintertijd 2017</Holiday>
+		<Weekday>1</Weekday>
+	</record>
+	<record>
+		<Date>43039</Date>
+		<Day>31</Day>
+		<Month>10</Month>
+		<Year>2017</Year>
+		<Holiday>Halloween 2017</Holiday>
+		<Weekday>3</Weekday>
+	</record>
+	<record>
+		<Date>43050</Date>
+		<Day>11</Day>
+		<Month>11</Month>
+		<Year>2017</Year>
+		<Holiday>Sint maarten 2017</Holiday>
+		<Weekday>7</Weekday>
+	</record>
+	<record>
+		<Date>43074</Date>
+		<Day>5</Day>
+		<Month>12</Month>
+		<Year>2017</Year>
+		<Holiday>Sinterklaas 2017</Holiday>
+		<Weekday>3</Weekday>
+	</record>
+	<record>
+		<Date>43094</Date>
+		<Day>25</Day>
+		<Month>12</Month>
+		<Year>2017</Year>
+		<Holiday>Kerst 2017</Holiday>
+		<Weekday>2</Weekday>
+	</record>
+	<record>
+		<Date>43094</Date>
+		<Day>25</Day>
+		<Month>12</Month>
+		<Year>2017</Year>
+		<Holiday>1e Kerstdag 2017</Holiday>
+		<Weekday>2</Weekday>
+	</record>
+	<record>
+		<Date>43095</Date>
+		<Day>26</Day>
+		<Month>12</Month>
+		<Year>2017</Year>
+		<Holiday>2e Kerstdag 2017</Holiday>
+		<Weekday>3</Weekday>
+	</record>
+	<record>
+		<Date>43100</Date>
+		<Day>31</Day>
+		<Month>12</Month>
+		<Year>2017</Year>
+		<Holiday>Oudejaarsdag 2017</Holiday>
+		<Weekday>1</Weekday>
+	</record>
+</data-set>
