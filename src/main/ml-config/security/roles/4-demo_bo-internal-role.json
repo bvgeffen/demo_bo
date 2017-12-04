@@ -1,0 +1,5 @@
+{
+  "role-name" : "demo_bo-internal",
+  "description" : "Internal role used for amping",
+  "role" : [ "demo_bo-writer" ]
+}

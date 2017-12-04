@@ -1,0 +1,5 @@
+{
+  "role-name" : "demo_bo-nobody",
+  "description" : "Unauthenticated user",
+  "role" : [ ]
+}
