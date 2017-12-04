@@ -70,13 +70,15 @@ task importMoonlight(type: com.marklogic.gradle.task.MlcpTask) {
 	classpath = configurations.mlcp
 	command = "IMPORT"
 	database = mlAppConfig.contentDatabaseName
+	port = 8061
 	input_file_path = "data/moonlight_xml.xml"
 	input_file_type = "aggregates"
 	aggregate_record_element = "record"
 	generate_uri = true
 	output_collections = "data,moonlight"
 	output_permissions = "rest-reader,read,rest-writer,update"
-
+	transform_module = "/ext/transform_moonlight.xqy"
+	transform_namespace = "http://marklogic.com/moonlight"
 	/**
 	 * New in ml-gradle 2.6.0 - set this to define a URI in your content database for mlcp's log output to be written to
 	 * as a text document. This can also be a variable, Gradle property, etc.
