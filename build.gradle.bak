@@ -145,7 +145,7 @@ task importWeather(type: com.marklogic.gradle.task.MlcpTask) {
 	generate_uri = true
 	output_collections = "data,weather"
 	output_permissions = "rest-reader,read,rest-writer,update"
-  transform_module = "/ext/transform_weather.xqy"
+ transform_module = "/ext/transform_weather.xqy"
 	transform_namespace = "http://marklogic.com/weather"
 	
 	/**
