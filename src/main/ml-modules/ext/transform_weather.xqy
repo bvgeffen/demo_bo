@@ -1,5 +1,5 @@
 xquery version "1.0-ml";
-module namespace moonlight = "http://marklogic.com/moonlight";
+module namespace moonlight = "http://marklogic.com/weather";
 declare function weather:transform(
   $content as map:map,
   $context as map:map
