@@ -89,10 +89,11 @@ task importMoonlight(type: com.marklogic.gradle.task.MlcpTask) {
 /**
  * Ingest burglary data
  */
-task importBurglary(type: com.marklogic.gradle.task.MlcpTask) {
+ task importBurglary(type: com.marklogic.gradle.task.MlcpTask) {
 	classpath = configurations.mlcp
 	command = "IMPORT"
 	database = mlAppConfig.contentDatabaseName
+	port = 8061
 	input_file_path = "data/burglary_xml.xml"
 	input_file_type = "aggregates"
 	aggregate_record_element = "record"
@@ -116,6 +117,7 @@ task importHoliday(type: com.marklogic.gradle.task.MlcpTask) {
 	classpath = configurations.mlcp
 	command = "IMPORT"
 	database = mlAppConfig.contentDatabaseName
+	port = 8061
 	input_file_path = "data/holiday_xml.xml"
 	input_file_type = "aggregates"
 	aggregate_record_element = "record"
@@ -139,13 +141,14 @@ task importWeather(type: com.marklogic.gradle.task.MlcpTask) {
 	classpath = configurations.mlcp
 	command = "IMPORT"
 	database = mlAppConfig.contentDatabaseName
+	port = 8061
 	input_file_path = "data/weather_xml.xml"
 	input_file_type = "aggregates"
 	aggregate_record_element = "record"
 	generate_uri = true
 	output_collections = "data,weather"
 	output_permissions = "rest-reader,read,rest-writer,update"
- transform_module = "/ext/transform_weather.xqy"
+  transform_module = "/ext/transform_weather.xqy"
 	transform_namespace = "http://marklogic.com/weather"
 	
 	/**
