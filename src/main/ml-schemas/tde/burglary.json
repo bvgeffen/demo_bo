@@ -1,18 +1,19 @@
 {
     "template": {
-      "context": "/record",
+      "context": "/envelope",
       "collections": ["burglary"],
       "rows": [
         {
           "schemaName": "bo", "viewName": "burglary",
           "columns": [
-            { "name": "postalcode", "scalarType": "string", "val": "Postalcode" },
-            { "name": "weekday", "scalarType": "string", "val": "Weekday" },
-            { "name": "month", "scalarType": "int", "val": "Month" },
-            { "name": "type", "scalarType": "string", "val": "Type" },
-            { "name": "city", "scalarType": "string", "val": "City" },
-            { "name": "lat", "scalarType": "string", "val": "LAT" },
-            { "name": "lon", "scalarType": "string", "val": "LON" }
+            { "name": "date", "scalarType": "date", "val": "metadata/date" },
+            { "name": "postalcode", "scalarType": "string", "val": "raw/record/Postalcode" },
+            { "name": "weekday", "scalarType": "string", "val": "raw/record/Weekday" },
+            { "name": "month", "scalarType": "int", "val": "raw/record/Month" },
+            { "name": "type", "scalarType": "string", "val": "raw/record/Type" },
+            { "name": "city", "scalarType": "string", "val": "raw/record/City" },
+            { "name": "lat", "scalarType": "string", "val": "raw/record/LAT" },
+            { "name": "lon", "scalarType": "string", "val": "raw/record/LON" }
           ]
         }
       ]

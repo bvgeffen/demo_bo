@@ -124,15 +124,15 @@ task importHoliday(type: com.marklogic.gradle.task.MlcpTask) {
 	generate_uri = true
 	output_collections = "data,holiday"
 	output_permissions = "rest-reader,read,rest-writer,update"
-	transform_module = "/ext/transform_holiday.xqy"
+  transform_module = "/ext/transform_holiday.xqy"
 	transform_namespace = "http://marklogic.com/holiday"
+	
 	/**
 	 * New in ml-gradle 2.6.0 - set this to define a URI in your content database for mlcp's log output to be written to
 	 * as a text document. This can also be a variable, Gradle property, etc.
 	 */
 	logOutputUri = "/holiday_import_log.txt"
 }
-
 
 /**
  * Ingest weather data
@@ -156,8 +156,4 @@ task importWeather(type: com.marklogic.gradle.task.MlcpTask) {
 	 * as a text document. This can also be a variable, Gradle property, etc.
 	 */
 	logOutputUri = "/weather_import_log.txt"
-}
-
-task importAll(type: GradleBuild) {
-     tasks = ['importMoonlight', 'importBurglary', 'importHoliday', 'importWeather']
 }

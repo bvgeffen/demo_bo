@@ -1,0 +1,74 @@
+xquery version "1.0-ml";
+
+(:
+: Insert the Template.
+: The function tde:template-insert() will validate the template; insert it into the Schemas database; 
+ : and assign the special collection "http://marklogic.com/xdmp/tde"
+:)
+
+import module "http://marklogic.com/xdmp/tde" at "/MarkLogic/tde.xqy";
+
+let $my-first-TDE:=
+<template xmlns="http://marklogic.com/xdmp/tde">
+<context>/record</context>
+<collections>
+   <collection>Holiday</collection>
+</collections>
+   <rows>
+     <row>
+      <schema-name>BO</schema-name>
+       <view-name>Holiday</view-name>
+       <columns>
+         <column>
+           <name>Date</name>
+           <scalar-type>string</scalar-type>
+           <val>Date</val>
+           <invalid-values>ignore</invalid-values>
+         </column>
+        <column>
+           <name>Weekday</name>
+           <scalar-type>int</scalar-type>
+           <val>Weekday</val>
+           <invalid-values>ignore</invalid-values>
+        </column>
+        <column>
+           <name>Month</name>
+           <scalar-type>int</scalar-type>
+           <val>Month</val>
+           <invalid-values>ignore</invalid-values>
+        </column>
+        
+         <column>
+           <name>Day</name>
+           <scalar-type>int</scalar-type>
+           <val>Day</val>
+           <invalid-values>ignore</invalid-values>
+        </column>
+        
+        
+         <column>
+           <name>Year</name>
+           <scalar-type>int</scalar-type>
+           <val>Year</val>
+           <invalid-values>ignore</invalid-values>
+        </column>
+        
+         
+        
+      
+      </columns>
+    </row>
+  </rows>
+</template>
+
+return 
+
+( tde:template-insert(
+   "/test/my-first-TDE.xml" ,
+   $my-first-TDE ,
+   xdmp:default-permissions() ,
+   "MY-TDE"
+  ),
+   "You just saved your TDE template template the Schemas database.",
+   "Change your database to Schemas, and click 'Explore' to view the template URI."
+)

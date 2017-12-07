@@ -1,13 +1,14 @@
 {
     "template": {
-      "context": "/record",
+      "context": "/envelope",
       "collections": ["weather"],
       "rows": [
         {
           "schemaName": "bo", "viewName": "weather",
           "columns": [
-            { "name": "station", "scalarType": "int", "val": "Station" },
-            { "name": "year", "scalarType": "int", "val": "Year" }
+            { "name": "date", "scalarType": "date", "val": "metadata/date" },
+            { "name": "station", "scalarType": "int", "val": "raw/record/Station" },
+            { "name": "year", "scalarType": "int", "val": "raw/record/Year" }
           ]
         }
       ]

@@ -8,8 +8,8 @@
           "columns": [
             { "name": "date", "scalarType": "date", "val": "metadata/date" },
             { "name": "day", "scalarType": "int", "val": "raw/record/Day" },
-            { "name": "weekday", "scalarType": "int", "val": "raw/record/Weekday" },
-            { "name": "month", "scalarType": "int", "val": "raw/record/Month" },
+            { "name": "weekday", "scalarType": "int", "val": "raw/Weekday" },
+            { "name": "month", "scalarType": "int", "val": "raw/Month" },
             { "name": "percentage", "scalarType": "int", "val": "raw/record/Percentage" }
           ]
         }
