@@ -148,3 +148,7 @@ task importWeather(type: com.marklogic.gradle.task.MlcpTask) {
 	 */
 	logOutputUri = "/weather_import_log.txt"
 }
+
+task importAll(type: GradleBuild) {
+     tasks = ['importMoonlight', 'importBurglary', 'importHoliday', 'importWeather']
+}

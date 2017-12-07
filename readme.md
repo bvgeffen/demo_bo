@@ -25,10 +25,14 @@ This application consists of three parts:
 ` gradle mlDeploy
 
 ## Ingest the data
+Either ingest the data one by one:
 ` gradle importHoliday
 ` gradle importWeather
 ` gradle importMoonlight
 ` gradle importBurglary
+
+Or ingest all at once:
+` gradle importAll
 
 ## Some usefull administrative commands
 If you want to redeploy the TDE's, run ` gradle mlLoadSchemas
