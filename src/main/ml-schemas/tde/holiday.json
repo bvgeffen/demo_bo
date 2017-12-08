@@ -6,7 +6,7 @@
         {
           "schemaName": "bo", "viewName": "holiday",
           "columns": [
-            { "name": "date", "scalarType": "date", "val": "metadata/date" },
+            { "name": "date", "scalarType": "string", "val": "metadata/date" },
             { "name": "weekday", "scalarType": "int", "val": "raw/record/Weekday" },
             { "name": "month", "scalarType": "int", "val": "raw/record/Month" },
             { "name": "day", "scalarType": "int", "val": "raw/record/Day" },

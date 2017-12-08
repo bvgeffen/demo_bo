@@ -6,7 +6,7 @@
         {
           "schemaName": "bo", "viewName": "weather",
           "columns": [
-            { "name": "date", "scalarType": "date", "val": "metadata/date" },
+            { "name": "date", "scalarType": "string", "val": "metadata/date" },
             { "name": "station", "scalarType": "int", "val": "raw/record/Station" },
             { "name": "year", "scalarType": "int", "val": "raw/record/Year" }
           ]

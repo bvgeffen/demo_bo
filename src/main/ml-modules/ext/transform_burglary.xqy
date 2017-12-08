@@ -14,6 +14,10 @@ declare function burglary:transform(
       <metadata>
         <created>{fn:current-dateTime()}</created>
         <date>{fn:string-join(($doc//Year, "-", $doc//Month, "-", $doc//Day))}</date>
+        <location>
+          <latitude>{$doc//LAT/string()}</latitude>
+          <longitude>{$doc//LON/string()}</longitude>
+        </location>
       </metadata>
       <raw>
          {$doc}
