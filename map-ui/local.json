@@ -1,0 +1,14 @@
+{
+  "app-name": "map-ui",
+  "ml-version": "9",
+  "ml-host": "localhost",
+  "ml-admin-user": "admin",
+  "ml-admin-pass": "admin",
+  "ml-app-user": "map-ui-user",
+  "ml-app-pass": "6f|EH%nK1>7F4|\"n9NZ",
+  "ml-http-port": "8061",
+  "node-port": 9070,
+  "guest-access": "false",
+  "disallow-updates": "false",
+  "appusers-only": "false"
+}

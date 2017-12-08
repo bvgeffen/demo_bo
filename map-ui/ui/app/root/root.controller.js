@@ -49,7 +49,7 @@
     rootCtrl.mapManager = mlMapManager;
     mlMapManager.init(
       /* center */ { latitude: 52.0325133, longitude: 5.2289087 },
-      /* zoom */ 2
+      /* zoom */ 8
     );
 
     if (miw && mapUtils.isMobile()) {
